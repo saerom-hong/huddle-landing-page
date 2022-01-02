@@ -4,6 +4,7 @@ export const StyledHeader = styled.header`
   ${"" /* props */}
   background-color: ${({ theme }) => theme.colors.header};
   padding: 40px 0;
+  background-image: url("./images/bg-hero-desktop.svg");
 `;
 
 export const Nav = styled.nav`
